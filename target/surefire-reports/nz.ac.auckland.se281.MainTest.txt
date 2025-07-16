@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: nz.ac.auckland.se281.MainTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.319 s <<< FAILURE! - in nz.ac.auckland.se281.MainTest
+T1_01_info_india(nz.ac.auckland.se281.MainTest$Task1)  Time elapsed: 0.064 s  <<< FAILURE!
+java.lang.AssertionError: 
+The test is expecting the following output in the console, but it was not there: 
+	"India => continent: Asia, fuel cost: 3, neighbours: [Middle East, Afghanistan, China, Siam]"
+	at nz.ac.auckland.se281.MainTest$Task1.T1_01_info_india(MainTest.java:29)
+
+T1_02_info_invalid_then_brazil(nz.ac.auckland.se281.MainTest$Task1)  Time elapsed: 0.056 s  <<< FAILURE!
+java.lang.AssertionError: 
+The test is expecting the following output in the console, but it was not there: 
+	"ERROR! This country was not found: Hello, try again!"
+	at nz.ac.auckland.se281.MainTest$Task1.T1_02_info_invalid_then_brazil(MainTest.java:36)
+
+T1_03_info_case_sensitive_irkutsk(nz.ac.auckland.se281.MainTest$Task1)  Time elapsed: 0.043 s  <<< FAILURE!
+java.lang.AssertionError: 
+The test is expecting the following output in the console, but it was not there: 
+	"ERROR! This country was not found: IrkuTsK, try again!"
+	at nz.ac.auckland.se281.MainTest$Task1.T1_03_info_case_sensitive_irkutsk(MainTest.java:46)
+
+T1_04_info_multiple_invalid_then_alaska(nz.ac.auckland.se281.MainTest$Task1)  Time elapsed: 0.036 s  <<< FAILURE!
+java.lang.AssertionError: 
+The test is expecting the following output in the console, but it was not there: 
+	"ERROR! This country was not found: H, try again!"
+	at nz.ac.auckland.se281.MainTest$Task1.T1_04_info_multiple_invalid_then_alaska(MainTest.java:55)
+
+T1_05_info_congo_and_siam(nz.ac.auckland.se281.MainTest$Task1)  Time elapsed: 0.035 s  <<< FAILURE!
+java.lang.AssertionError: 
+The test is expecting the following output in the console, but it was not there: 
+	"Congo => continent: Africa, fuel cost: 1, neighbours: [North Africa, East Africa, South Africa]"
+	at nz.ac.auckland.se281.MainTest$Task1.T1_05_info_congo_and_siam(MainTest.java:66)
+
+T1_06_info_newguinea_siam_madagascar(nz.ac.auckland.se281.MainTest$Task1)  Time elapsed: 0.035 s  <<< FAILURE!
+java.lang.AssertionError: 
+The test is expecting the following output in the console, but it was not there: 
+	"New Guinea => continent: Australia, fuel cost: 2, neighbours: [Indonesia, Eastern Australia, Western Australia]"
+	at nz.ac.auckland.se281.MainTest$Task1.T1_06_info_newguinea_siam_madagascar(MainTest.java:75)
+
